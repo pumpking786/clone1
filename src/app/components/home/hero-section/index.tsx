@@ -39,8 +39,11 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <img
-          src="https://cdn-imgix.headout.com/media/images/927c06298ca9e52b75488b1f0fcb05b8--0010-21024-dubai-img-worlds-of-adventure-tickets-10.jpg?auto=format&w=510.8727272727273&h=401.4&q=90&ar=14%3A11&crop=faces&fit=crop"
-          alt=""
+          src="/images/home/banner/banner-img.png"
+          alt="banner-img"
+          width={685}
+          height={650}
+          className=" absolute right-0 top-0 z-1"
         />
       </div>
     </section>

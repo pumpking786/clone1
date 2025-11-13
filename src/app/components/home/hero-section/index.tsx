@@ -11,7 +11,7 @@ const index = () => {
               <div className="flex items-center gap-8">
                 <h1>I'm Sruthi</h1>
                 <div className="wave">
-                  <Image
+                  <img
                     src={getImgPath("/images/home/banner/wave-icon.svg")}
                     alt="wave-icon"
                     width={62}
@@ -28,7 +28,7 @@ const index = () => {
               majority have suffered alteration
             </p>
           </div>
-          <Image
+          <img
             src={getImgPath("/images/home/banner/banner-img.png")}
             alt="banner-img"
             width={685}
@@ -39,7 +39,7 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <img
-          src="/images/home/banner/banner-img.png"
+          src={getImgPath("/images/home/banner/banner-img.png")}
           alt="banner-img"
           width={685}
           height={650}

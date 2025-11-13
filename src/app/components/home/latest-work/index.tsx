@@ -39,7 +39,7 @@ const LatestWork = () => {
                     className="group flex flex-col gap-3 xl:gap-6"
                   >
                     <div className="relative">
-                      <Image
+                      <img
                         src={getImgPath(value?.image)}
                         alt="image"
                         width={570}
